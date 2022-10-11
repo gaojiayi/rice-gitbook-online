@@ -12,7 +12,16 @@ git clone git@github.com:gaojiayi/RICE.git
 cd rice-distribution
 
 mvn -X clean package assembly:single
+
 ```
+
+根据控制台提示，如下显示表示已成功build
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+在target目录下会生成3个压缩包
+
+![](<.gitbook/assets/image (4).png>)
 
 ## 搭建控制器
 

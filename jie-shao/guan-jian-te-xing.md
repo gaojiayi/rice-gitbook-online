@@ -25,4 +25,4 @@ RICE 工作流引擎暂时只支持以注册的java内置基本任务。通过�
 
 每一次执行一个节点任务，根据执行结果，通过sql过滤可以控制执行的启停，以及判断是否需要执行下一个任务。
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>rice 工作流</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>rice 工作流</p></figcaption></figure>

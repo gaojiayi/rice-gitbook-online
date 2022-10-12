@@ -1,6 +1,6 @@
 # 编译部署
 
-<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>rice集群部署</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>rice集群部署</p></figcaption></figure>
 
 ## 编译
 
@@ -23,7 +23,7 @@ mvn -X clean package assembly:single
 
 在target目录下会生成3个压缩包
 
-<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## 搭建控制器
 
@@ -33,12 +33,14 @@ mvn -X clean package assembly:single
 </strong>
 cd bin
 
+配置？？？？
+
 启动  ./ricecontroller
 </code></pre>
 
 如果看到这样的输出信息 说明已经启动
 
-![](<.gitbook/assets/image (4).png>)
+![](<.gitbook/assets/image (1).png>)
 
 ```
 关闭控制器 ./riceshutdown controller
@@ -59,7 +61,7 @@ cd bin
 
 看到这个输出说明已经成功编译
 
-![](<.gitbook/assets/image (6).png>)
+![](.gitbook/assets/image.png)
 
 * **部署至nginx**
 

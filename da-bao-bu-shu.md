@@ -21,11 +21,24 @@ mvn -X clean package assembly:single
 
 在target目录下会生成3个压缩包
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## 搭建控制器
 
+**以rice-bin.tar.gz为例**
 
+<pre><code><strong>解压  tar -zxvf rice-bin.tar.gz
+</strong>
+cd bin
+
+启动  ./ricecontroller
+</code></pre>
+
+如果看到这样的输出信息 说明已经启动
+
+![](.gitbook/assets/image.png)
+
+后续关于控制器的配置 将在后续介绍。
 
 ## 搭建控制台
 

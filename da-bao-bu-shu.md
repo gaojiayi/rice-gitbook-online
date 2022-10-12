@@ -1,6 +1,6 @@
 # 打包部署
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>rice集群部署</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>rice集群部署</p></figcaption></figure>
 
 ## 打包
 
@@ -21,7 +21,7 @@ mvn -X clean package assembly:single
 
 在target目录下会生成3个压缩包
 
-![](<.gitbook/assets/image (4).png>)
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## 搭建控制器
 

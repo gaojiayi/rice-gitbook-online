@@ -1,6 +1,6 @@
 # 编译部署
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>rice集群部署</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>rice集群部署</p></figcaption></figure>
 
 ## 编译
 
@@ -23,7 +23,7 @@ mvn -X clean package assembly:single
 
 在target目录下会生成3个压缩包
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 搭建控制器
 
@@ -38,7 +38,7 @@ cd bin
 
 如果看到这样的输出信息 说明已经启动
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (4).png>)
 
 ```
 关闭控制器 ./riceshutdown controller
@@ -47,6 +47,25 @@ cd bin
 后续关于控制器的配置 将在后续介绍。
 
 ## 搭建控制台
+
+在控制器的主机上
+
+* **安装nginx**
+* **编译**
+
+<pre data-line-numbers><code><strong> cd rice-manage-ui
+</strong><strong> pnpm install
+</strong><strong> pnpm run build</strong></code></pre>
+
+看到这个输出说明已经成功编译
+
+![](<.gitbook/assets/image (6).png>)
+
+* **部署至nginx**
+
+**将dist整个目录宝贝**
+
+
 
 ## 搭建调度器集群
 

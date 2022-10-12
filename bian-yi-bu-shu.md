@@ -1,13 +1,15 @@
-# 打包部署
+# 编译部署
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>rice集群部署</p></figcaption></figure>
 
-## 打包
+## 编译
 
 因为Rice暂时还没有提交到公共的maven仓库，所以这边是采用手动打包的方式来引入到项目中。
 
 ```
 git clone git@github.com:gaojiayi/RICE.git
+
+mvn clean install -Dmaven.test.skip=true
 
 cd rice-distribution
 
@@ -37,6 +39,10 @@ cd bin
 如果看到这样的输出信息 说明已经启动
 
 ![](.gitbook/assets/image.png)
+
+```
+关闭控制器 ./riceshutdown controller
+```
 
 后续关于控制器的配置 将在后续介绍。
 

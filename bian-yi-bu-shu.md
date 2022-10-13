@@ -25,6 +25,10 @@ mvn -X clean package assembly:single
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
+## Mysql
+
+[https://github.com/gaojiayi/RICE/tree/master/db](https://github.com/gaojiayi/RICE/tree/master/db)   将db目录下的sql脚本在mysql中执行，初始化数据库
+
 ## 搭建控制器
 
 **以rice-bin.tar.gz为例**

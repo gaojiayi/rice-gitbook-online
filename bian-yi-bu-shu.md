@@ -147,7 +147,7 @@ cd  ../bin
 ```
 
 ```
-关闭控制器 ./riceshutdown dispatcher
+关闭控制器 ./riceshutdown controller
 ```
 
 ## 处理器集群

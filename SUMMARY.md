@@ -6,7 +6,7 @@
   * [关键特性](jie-shao/guan-jian-te-xing.md)
 * [🔃 编译部署](bian-yi-bu-shu.md)
 * [🎉 Quick Start](quick-start.md)
-* [🛠 控制器](kong-zhi-qi.md)
+* [\* 控制器](kong-zhi-qi.md)
 * [🖥 处理器](chu-li-qi.md)
 * [🎛 调度器](tiao-du-qi.md)
 * [👨💻 控制台管理](kong-zhi-tai-guan-li.md)

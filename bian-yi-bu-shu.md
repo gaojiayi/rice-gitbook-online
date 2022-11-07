@@ -1,4 +1,4 @@
-# 编译部署
+# 🔃 编译部署
 
 <figure><img src=".gitbook/assets/image (4) (2).png" alt=""><figcaption><p>rice集群部署</p></figcaption></figure>
 

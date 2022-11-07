@@ -10,10 +10,10 @@ description: 以rice-demo为例，分别介绍如何接入到rice平台，创建
 
 ![](<.gitbook/assets/image (7).png>)
 
-* 分别启动3个controller服务器
-* 启动dispatcher 调度器
-* UI端注册任务
-* 最后启动处理器
+* 分别启动3个controller服务器  ControllerServer1   ControllerServer2   ControllerServer3
+* 启动dispatcher 调度器   RiceDispatcher1
+* UI端注册任务          &#x20;
+* 最后启动处理器      ProcessorServiceInstance
 
 ## 1.一个简单的任务调度
 

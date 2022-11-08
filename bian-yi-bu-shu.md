@@ -53,7 +53,7 @@ cd  ../bin
 
 如果看到这样的输出信息 说明已经启动
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (2).png>)
 
 ```
 关闭控制器 ./riceshutdown controller

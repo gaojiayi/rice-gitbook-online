@@ -8,7 +8,7 @@ description: 以rice-demo为例，分别介绍如何接入到rice平台，创建
 
 参考前一个章节的部署，这边本地运行。
 
-![](<.gitbook/assets/image (7).png>)
+![](<.gitbook/assets/image (7) (1).png>)
 
 * 分别启动3个controller服务器  ControllerServer1   ControllerServer2   ControllerServer3
 * 启动dispatcher 调度器   RiceDispatcher1
@@ -86,7 +86,11 @@ public class ProcessorServiceInstance {
 
 ### 查看任务执行状态
 
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>处理器上线记录</p></figcaption></figure>
 
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>任务上线通知</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>任务执行记录</p></figcaption></figure>
 
 ## 2.Map任务
 
